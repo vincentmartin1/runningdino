@@ -4,14 +4,8 @@
 #include <string.h>
 #include <assert.h>
 
-#include "../uartLib/uart.hpp"
-
 static const int defaultVectorAlloc = 4; // default allocation value
 static const int kNotFound = -1; // not found sentinel
-
-void debug(char *s) {
-    USART_Transmit_String(s);
-}
 
 void VectorNew(vector *v, int elemSize, VectorFreeFunction freeFn, int initialAllocation)
 {
