@@ -12,7 +12,7 @@
 
 <br><br><br><br>
 
-####Vincent Martin
+#### Vincent Martin
 
 <br><br><br><br><br>
 
@@ -63,7 +63,7 @@ Below are the details of each difficulty level :
 | Level 3          | 3x         | 512       | 257     | 80%                          |
 | Level 4          | 4x         | 256       | 0       | 90%                          |
 
-###1.3. Game Walkthrough
+### 1.3. Game Walkthrough
 
 At first, the player arrives on the main screen, introducing them to the game with the "Running Dino" title, and a prompt
 asking to press the button B4.
@@ -84,9 +84,9 @@ repeated on and on until the player uses their 4 lives.
 Once all the lives have expired, a screen with the player's total score is presented. The next one asks them if they want
 to restart the game. By pressing B2, the game will restart. Any other button will terminate the game.
 
-##2. Technical Informations
+## 2. Technical Informations
 
-###2.1. Technical description
+### 2.1. Technical description
 
 #### Used in this project :
 - Arduino Uno, Atmega328p
