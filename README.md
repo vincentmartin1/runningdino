@@ -1,2 +1,0 @@
-# runningdino
-Running Dino Uno
