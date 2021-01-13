@@ -229,6 +229,16 @@ void ADC_Init(void){
     ADMUX  =  (1<<REFS0);
 }
 
+/**
+ * Function: debug(char*)
+ * Sends the string 's' passed as a parameter via USART.
+ * Used to avoid writing 'USART_Transmit_String' every time, as 'debug' is shorter.
+ * DEBUGGING PURPOSES ONLY.
+ * @param s - string to send via USART.
+ */
+void debug(char *s) {
+    USART_Transmit_String(s);
+}
 
 /* --- Obstacles functions --- */
 
